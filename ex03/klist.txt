@@ -1,0 +1,5 @@
+Credentials cache: API:5222
+        Principal: agaliste@42MADRID.COM
+
+  Issued                Expires               Principal
+Nov 23 12:12:20 2020  Nov 23 22:12:13 2020  krbtgt/42MADRID.COM@42MADRID.COM
