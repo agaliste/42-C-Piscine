@@ -1,1 +1,1 @@
-find . -type f -o -type d -mindepth 1  | wc -l | awk '{$1=$1;print}'
+find . -type f \( -iname "*.*" ! -iname ".*" \) -o -type d | wc -l | awk '{$1=$1;print}'
