@@ -6,12 +6,13 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 09:07:19 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/26 09:12:20 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/26 11:17:37 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_alphabet(void) {
-    
+void	ft_print_alphabet(void)
+{
+	return (0);
 }
