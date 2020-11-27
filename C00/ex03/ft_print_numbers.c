@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 18:39:02 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/26 19:11:53 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/27 20:45:21 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,14 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_alphabet(void)
+void	ft_print_numbers(void)
 {
-	int	number;
+	char	number;
 
-	number = 0;
-	while (number <= 9)
+	number = '0';
+	while (number <= '9')
 	{
 		ft_putchar(number);
 		number++;
 	}
-}
-
-int		main(void)
-{
-	ft_print_alphabet();
-	return (0);
 }

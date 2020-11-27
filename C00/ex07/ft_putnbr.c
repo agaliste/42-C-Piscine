@@ -1,18 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/26 08:22:25 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/27 20:45:11 by agaliste         ###   ########.fr       */
+/*   Created: 2020/11/27 21:40:11 by agaliste          #+#    #+#             */
+/*   Updated: 2020/11/27 21:48:03 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "unistd.h"
+#include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_putint(int c)
 {
 	write(1, &c, 1);
+}
+
+void	ft_putnbr(int nb)
+{
+	nb = 42;
+
+	ft_putint(nb);
+}
+
+int	main(void)
+{
+	ft_putnbr();
+	return (0);
 }
