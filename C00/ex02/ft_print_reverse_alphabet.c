@@ -6,26 +6,20 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 18:28:34 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/27 20:45:15 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/28 11:01:57 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
 void	ft_print_reverse_alphabet(void)
 {
-	char	letter;
+	char	a;
 
-	letter = 'z';
-	while (letter >= 'a')
+	a = 'z';
+	while (a >= 'a')
 	{
-		ft_putchar(letter);
-		letter--;
+		write(1, &a, 1);
+		a--;
 	}
 }
-
