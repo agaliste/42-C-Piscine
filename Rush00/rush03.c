@@ -7,6 +7,7 @@ void    rush(int x, int y)
 
     px = 0;
     py = 0;
+
     while (py < y)
     {
         while (px < x)
@@ -19,7 +20,7 @@ void    rush(int x, int y)
             {
                 ft_putchar('B');
             }
-            else if ((px == 0 || px == x - 1) && (py > 0 || py < y -1))
+            else if ((px == 0 || px == x - 1) && (py > 0 && py < y - 1))
             {
                 ft_putchar('B');
             }
