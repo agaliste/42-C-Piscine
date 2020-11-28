@@ -7,7 +7,6 @@ void    rush(int x, int y)
 
     px = 0;
     py = 0;
-
     while (py < y)
     {
         while (px < x)
