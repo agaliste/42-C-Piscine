@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/26 09:07:19 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/28 11:03:09 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/28 16:44:46 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_print_alphabet(void)
 	a = 'a';
 	while (a <= 'z')
 	{
-		write(1, &c, 1);
+		write(1, &a, 1);
 		a++;
 	}
 }

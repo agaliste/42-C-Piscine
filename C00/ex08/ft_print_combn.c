@@ -6,13 +6,13 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/28 08:39:28 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/28 13:05:56 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/28 17:01:53 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int			ft_putchar(char c)
+void		ft_putchar(char c)
 {
 	write(1, &c, 1);
 }

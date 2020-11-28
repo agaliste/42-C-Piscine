@@ -12,19 +12,23 @@ void    rush(int x, int y)
     {
         while (px < x)
         {
-            if (px == 0 &&  (py < 1 || py == y - 1))
+            if (px == 0 && (py < 1 || py == y - 1))
             {
                 ft_putchar('A');
             }
-            if (px )
+            else if ((py == 0 || py == y - 1) && (px > 0 && px < x - 1))
             {
                 ft_putchar('B');
             }
-            if (px == x - 1 && py == y - 1)
+            else if ((px == 0 || px == x - 1) && (py > 0 || py < y -1))
+            {
+                ft_putchar('B');
+            }
+            else if (px == x - 1 && (py < 1 || py == y - 1))
             {
                 ft_putchar('C');
             }
-            if (px > x - 1 && (py == y - 1 || py == y + 1))
+            else
             {
                 ft_putchar(' ');
             }

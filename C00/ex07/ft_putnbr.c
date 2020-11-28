@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/27 21:40:11 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/28 11:21:57 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/28 16:55:48 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_putnbr(int nb)
 		{
 			ft_putchar('-');
 			ft_putchar('2');
-			ft_putnbr(147483647);
+			ft_putnbr(147483648);
 			return ;
 		}
 		else if (nb >= 10)
