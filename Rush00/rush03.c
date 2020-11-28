@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/28 18:53:59 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/28 18:54:01 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/11/28 19:02:15 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,25 +24,15 @@ void	rush(int x, int y)
 		while (px < x)
 		{
 			if (px == 0 && (py < 1 || py == y - 1))
-			{
 				ft_putchar('A');
-			}
 			else if ((py == 0 || py == y - 1) && (px > 0 && px < x - 1))
-			{
 				ft_putchar('B');
-			}
 			else if ((px == 0 || px == x - 1) && (py > 0 && py < y - 1))
-			{
 				ft_putchar('B');
-			}
 			else if (px == x - 1 && (py < 1 || py == y - 1))
-			{
 				ft_putchar('C');
-			}
 			else
-			{
 				ft_putchar(' ');
-			}
 			px++;
 		}
 		py++;
