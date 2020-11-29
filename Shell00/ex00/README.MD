@@ -2,7 +2,7 @@
 
 |               Exercise 00             |
 |---------------------------------------|
-| Los buenos saben mostrar una Z        |
+| The good guys know how to show a Z    |
 | Turn-in directory : ex00/             |
 | Files to turn in : z                  |
 | Allowed functions : None              |
