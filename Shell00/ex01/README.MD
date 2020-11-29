@@ -2,7 +2,7 @@
 
 |               Exercise 01             |
 |---------------------------------------|
-|             testShell00               |
+|             ¿Qué son los atributos?   |
 | Turn-in directory : ex01/             |
 | Files to turn in : testShell00.tar    |
 | Allowed functions : None              |
