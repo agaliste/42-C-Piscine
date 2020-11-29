@@ -1,6 +1,6 @@
 ## Exercise 02 : Sí, quiero más...
 
-|               Exercise 01             |
+|               Exercise 02             |
 |---------------------------------------|
 |             Sí, quiero más...         |
 | Turn-in directory : ex02/             |
