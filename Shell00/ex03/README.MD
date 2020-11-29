@@ -1,4 +1,4 @@
-## Exercise 03 : ¡Conéctame!
+## Exercise 03 : Connect me!
 
 |               Exercise 03             |
 |---------------------------------------|
