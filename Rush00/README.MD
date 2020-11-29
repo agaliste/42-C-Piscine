@@ -2,6 +2,6 @@
 
 #### Table of contents
 
-|  ##  |			Exercises				|	Directory	|	Files			|	Allowed Functions	|
-|:----:|:-----------------------------------|:-------------:|:------------------|:-------------:|
-|  00  |rush0X						|	ex00/		| main.c, ft_putchar.c, rush0X.c	| write |
+|  ##  |			Exercises				|	Directory	|	Files			|	Allowed Functions	|	Mark |
+|:----:|:-----------------------------------|:-------------:|:------------------|:-------------:|:-------------:|
+|  00  |rush0X						|	ex00/		| main.c, ft_putchar.c, rush0X.c	| write | Not jet marked |
