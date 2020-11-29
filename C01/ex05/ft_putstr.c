@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/27 21:40:11 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/29 20:59:43 by agaliste         ###   ########.fr       */
+/*   Created: 2020/11/29 20:34:53 by agaliste          #+#    #+#             */
+/*   Updated: 2020/11/29 20:36:23 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,31 +15,17 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
+	return ;
 }
 
-void	ft_putnbr(int nb)
+void	ft_putstr(char *str)
 {
-	if (nb > -2147483648 || nb <= 2147483647)
+	int i;
+
+	i = 0;
+	while (str[i])
 	{
-		if (nb == -2147483648)
-		{
-			ft_putchar('-');
-			ft_putchar('2');
-			ft_putnbr(147483648);
-			return ;
-		}
-		else if (nb >= 10)
-		{
-			ft_putnbr(nb / 10);
-			ft_putnbr(nb % 10);
-		}
-		else if (nb < 0)
-		{
-			nb = -nb;
-			ft_putchar('-');
-			ft_putnbr(nb);
-		}
-		else
-			ft_putchar(nb + '0');
+		ft_putchar(str[i]);
+		i += 1;
 	}
 }
