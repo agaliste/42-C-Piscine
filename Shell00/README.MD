@@ -6,8 +6,8 @@
 |:----:|:-----------------------------------|:-------------:|:------------------|:-------------:|
 |  00  |z						|	ex00/		|z	| OK! :D |
 |  01  |testShell00								|	ex01/		|testShell00.tar			| OK! :D |
-|  02  |Si, quiero más...							|	ex02/		|exo2.tar		| OK! :D |
-|  03  |¡Conéctame!									|	ex03/		|klist.txt				| OK! :D |
+|  02  |Oh yeah, mooore...							|	ex02/		|exo2.tar		| OK! :D |
+|  03  |Connect me!									|	ex03/		|klist.txt				| OK! :D |
 |  04  |midLS					|	ex04/		|midLS	| OK! :D |
 |  05  |GiT commit								|	ex05/		|git_commit.sh			| OK! :D |
 |  06  |gitignore							|	ex06/		|git_ignore.sh		| OK! :D |
