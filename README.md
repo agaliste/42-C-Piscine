@@ -13,6 +13,6 @@ Started at: **23/11/2020 at 9:30:00** --> Ends at: **18/12/2020**
 |  04  |C01					|	[C01/](https://github.com/somedevv/42-C-Piscine/tree/master/C01)		| ex00 --> ex08 |
 
 
-These are all projects made by me in the 42 C-Pisicine of [42Madrid Fundacion Telefonica](https://www.42madrid.com/).
+These are all projects made by me in the C-Pisicine of [42Madrid Fundacion Telefonica](https://www.42madrid.com/).
 
 More proects to come.
