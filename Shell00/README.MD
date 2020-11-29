@@ -4,7 +4,7 @@
 
 |  ##  |			Exercises				|	Directory	|	Files			| Moulinette	|
 |:----:|:-----------------------------------|:-------------:|:------------------|:-------------:|
-|  00  |z 						|	[ex0/](https://github.com/somedevv/42-Piscine/tree/master/Shell00/ex00) 		|z	| OK! :D |
+|  00  |z 						|	[ex00/](https://github.com/somedevv/42-Piscine/tree/master/Shell00/ex00) 		|z	| OK! :D |
 |  01  |testShell00								|	[ex01/](https://github.com/somedevv/42-Piscine/tree/master/Shell00/ex01)		|testShell00.tar			| OK! :D |
 |  02  |Oh yeah, mooore...							|	[ex02/](https://github.com/somedevv/42-Piscine/tree/master/Shell00/ex02)		|exo2.tar		| OK! :D |
 |  03  |Connect me!									|	[ex03/](https://github.com/somedevv/42-Piscine/tree/master/Shell00/ex03)		|klist.txt				| OK! :D |
