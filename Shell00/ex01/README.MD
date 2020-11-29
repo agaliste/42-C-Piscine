@@ -1,4 +1,4 @@
-## Exercise 00 : testShell00
+## Exercise 01 : testShell00
 
 |               Exercise 01             |
 |---------------------------------------|
