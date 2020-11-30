@@ -1,21 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/29 20:37:19 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/30 08:41:29 by agaliste         ###   ########.fr       */
+/*   Created: 2020/11/30 08:18:42 by agaliste          #+#    #+#             */
+/*   Updated: 2020/11/30 08:41:43 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strlen(char *str)
+void	ft_sort_int_tab(int *tab, int size)
 {
-	int	i;
+	int	swap;
+	int	count;
 
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
+	count = 0;
+	while (count < (size - 1))
+	{
+		if (tab[count] > tab[count + 1])
+		{
+			swap = tab[count];
+			tab[count] = tab[count + 1];
+			tab[count + 1] = swap;
+			count = 0;
+		}
+		else
+			count++;
+	}
 }
