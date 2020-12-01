@@ -11,6 +11,7 @@ Started at: **23/11/2020 at 9:30:00** --> Ends at: **18/12/2020**
 |  02  |C00								|	[C00/](https://github.com/somedevv/42-C-Piscine/tree/master/C00)		| ex00 --> ex08			|
 |  03  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	|
 |  04  |C01					|	[C01/](https://github.com/somedevv/42-C-Piscine/tree/master/C01)		| ex00 --> ex08 |
+|  05  |C02					|	[C02/](https://github.com/somedevv/42-C-Piscine/tree/master/C02)		| ex00 --> ex12 |
 
 
 These are all projects made by me in the C-Pisicine of [42Madrid Fundacion Telefonica](https://www.42madrid.com/).
