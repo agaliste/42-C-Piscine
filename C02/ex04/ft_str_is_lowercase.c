@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 10:09:12 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 09:32:50 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 13:18:05 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,7 @@ int		ft_str_is_lowercase(char *str)
 	a = 0;
 	while (*str != '\0')
 	{
-		if (*str >= 'a' && *str <= 'z' && *str != '\0')
-		{
-		}
-		else
+		if (*str < 'a' || *str > 'z')
 		{
 			a++;
 		}

@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 09:51:10 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 13:02:53 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,7 @@ char	*ft_strcapitalize(char *str)
 		{
 			*str = *str + 32;
 		}
-		else
-		{
-			*str++;
-		}
+		*str++;
 	}
 	return (str);
 }

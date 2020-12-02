@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 16:46:19 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 09:33:31 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 13:17:15 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,7 @@ int		ft_str_is_uppercase(char *str)
 	a = 0;
 	while (*str != '\0')
 	{
-		if (*str >= 'A' && *str <= 'Z' && *str != '\0')
-		{
-		}
-		else
+		if (*str < 'A' || *str > 'Z')
 		{
 			a++;
 		}
