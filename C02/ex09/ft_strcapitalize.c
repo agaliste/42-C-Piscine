@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 15:25:36 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 16:26:02 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,7 @@ char	*ft_strcapitalize(char *str)
 		{
 			p = 0;
 		}
-		else if (*str >= '0' && *str <= '9')
-		{
-			p = 1;
-		}
-		else if (*str >= 'A' && *str <= 'Z' && p == 0)
+		else if ((*str >= '0' && *str <= '9') || (*str >= 'A' && *str <= 'Z'))
 		{
 			p = 1;
 		}
