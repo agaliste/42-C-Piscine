@@ -6,11 +6,26 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 09:29:37 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 09:51:10 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strcapitalize(char *str)
+char	*ft_strcapitalize(char *str)
 {
-    
+	while (*str != '\0')
+	{
+		if (*str != ' ')
+		{
+			*str++;
+		}
+		else if (*str >= 'a' && *str <= 'z')
+		{
+			*str = *str + 32;
+		}
+		else
+		{
+			*str++;
+		}
+	}
+	return (str);
 }
