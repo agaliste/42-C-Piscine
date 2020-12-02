@@ -14,6 +14,6 @@
 |  07  |ft_strupcase        | [ex07/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex07)|ft_strupcase.c	    	|     ??     |
 |  08  |ft_strlowcase| [ex08/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex08)|ft_strlowcase.c|     ??     |
 |  09  |ft_strcapitalize        | [ex09/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex09)|ft_strcapitalize.c	    	|     ??     |
-|  10  |ft_strlcpy| [ex10/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex07)|ft_strlcpy.c|     ??     |
-|  11  |ft_putstr_non_printable| ex11/	                                                              |ft_putstr_non_printable.c|     ??     |
+|  10  |ft_strlcpy| [ex10/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex10)|ft_strlcpy.c|     ??     |
+|  11  |ft_putstr_non_printable| [ex11/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex11)|ft_putstr_non_printable.c|     ??     |
 |  12  |ft_print_memory        | ex12/	                                                              |ft_print_memory.c	    	|     ??     |
