@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/30 14:50:43 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/30 18:43:26 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 15:51:04 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,18 @@ int	ft_str_is_numeric(char *str)
 	unsigned int i;
 
 	i = 0;
-	if ((str[i] >= '0' && str[i] <= '9') || str[i] == '\0')
+	while (*str != '\0')
 	{
-		return (1);
+		if (*str <= '/' || *str >= ':')
+		{
+			i++;
+		}
+		*str++;
 	}
-	++i;
-	return (0);
+	if (i > 0)
+	{
+		return (0);
+	}
+	else
+		return (1);
 }

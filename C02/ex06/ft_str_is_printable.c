@@ -6,24 +6,24 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 17:14:32 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 13:14:06 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 15:54:23 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_str_is_printable(char *str)
 {
-	int a;
+	int i;
 
-	a = 0;
+	i = 0;
 	while (*str != '\0')
 	{
-		if (*str <= '!' && *str >= '~')
+		if (*str <= ' ' && *str >= '~')
 		{
-			a++;
+			i++;
 		}
 		*str++;
 	}
-	if (a > 0)
+	if (i > 0)
 	{
 		return (0);
 	}
