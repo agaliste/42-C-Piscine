@@ -6,22 +6,19 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 10:09:12 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/01 16:38:48 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/02 09:32:50 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_str_is_lowercase(char *str)
 {
 	int a;
-	int i;
 
-	i = 0;
 	a = 0;
 	while (*str != '\0')
 	{
 		if (*str >= 'a' && *str <= 'z' && *str != '\0')
 		{
-			i++;
 		}
 		else
 		{
