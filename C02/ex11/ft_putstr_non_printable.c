@@ -6,18 +6,21 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 16:38:39 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 18:02:34 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/03 11:16:18 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 int			ft_putchar(char c)
 {
 	write(1, &c, 1);
+	return (0);
 }
 
 static void	ft_print_hexa(char np)
 {
-	char	*hex;
+	unsigned char	*hex;
 
 	hex = "0123456789abcdef";
 	if (np > 16)

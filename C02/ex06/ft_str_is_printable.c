@@ -6,22 +6,24 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 17:14:32 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 17:01:59 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/03 11:07:02 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_str_is_printable(char *str)
 {
-	int i;
+	int				i;
+	unsigned int	n;
 
 	i = 0;
-	while (*str != '\0')
+	n = 0;
+	while (str[n] != '\0')
 	{
-		if (*str < ' ' && *str > '~')
+		if (str[n] < ' ' && str[n] > '~')
 		{
 			i++;
 		}
-		*str++;
+		n++;
 	}
 	if (i > 0)
 	{

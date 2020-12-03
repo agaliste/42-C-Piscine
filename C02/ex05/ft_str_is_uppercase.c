@@ -6,22 +6,24 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 16:46:19 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/02 15:54:06 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/03 11:05:50 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_str_is_uppercase(char *str)
 {
-	int i;
+	int				i;
+	unsigned int	n;
 
 	i = 0;
-	while (*str != '\0')
+	n = 0;
+	while (str[n] != '\0')
 	{
-		if (*str < 'A' || *str > 'Z')
+		if (str[n] < 'A' || str[n] > 'Z')
 		{
 			i++;
 		}
-		*str++;
+		n++;
 	}
 	if (i > 0)
 	{
