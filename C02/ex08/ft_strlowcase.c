@@ -6,19 +6,22 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:25:30 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/03 13:43:27 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/03 16:00:41 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strlowcase(char *str)
 {
+	char *start;
+
+	start = str;
 	while (*str != '\0')
 	{
-		if (*str >= 'A' && *str <= 'Z')
+		if (*str >= 65 && *str <= 90)
 		{
 			*str += 32;
 		}
 		str++;
 	}
-	return (str);
+	return (start);
 }
