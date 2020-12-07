@@ -13,3 +13,5 @@
 |  06  |ft_print_comb2							|	[ex06/](https://github.com/somedevv/42-C-Piscine/tree/master/C00/ex06)		|ft_print_comb2.c		| OK! :D |
 |  07  |ft_putnbr									|	[ex07/](https://github.com/somedevv/42-C-Piscine/tree/master/C00/ex07)		|ft_putnbr.c				| OK! :D |
 |  08  |ft_print_combn							|	[ex08/](https://github.com/somedevv/42-C-Piscine/tree/master/C00/ex08)		|ft_print_combn.c		| KO! :( |
+
+#### Succeded with 92%
