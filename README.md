@@ -23,4 +23,4 @@ Started at: **23/11/2020 at 9:30:00** --> Ends at: **18/12/2020**
 
 These are all projects made by me in the C-Pisicine of [42Madrid Fundacion Telefonica](https://www.42madrid.com/).
 
-More proects to come.
+More projects to come.
