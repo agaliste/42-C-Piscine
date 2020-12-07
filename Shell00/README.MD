@@ -14,3 +14,5 @@
 |  07  |diff									|	[ex07/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00/ex07)		|b				| OK! :D |
 |  08  |clean							|	[ex08/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00/ex08)		|clean		| OK! :D |
 |  09  |Illusions, not tricks, Michael...							|	[ex09/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00/ex09)		|ft_magic		| OK! :D |
+
+#### Succeded with 100%
