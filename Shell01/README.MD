@@ -13,3 +13,4 @@
 |  07  |r_dwssap									|	[ex07/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell01/ex07)		|r_dwssap.sh				| OK! :D |
 |  08  |add_chelou							|	[ex08/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell01/ex08)		|add_chelou.sh		| OK! :D |
 
+#### Succeded with 100%
