@@ -17,3 +17,5 @@
 |  10  |ft_strlcpy| [ex10/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex10)|ft_strlcpy.c|     OK! :D     |
 |  11  |ft_putstr_non_printable| [ex11/](https://github.com/somedevv/42-C-Piscine/tree/master/C02/ex11)|ft_putstr_non_printable.c|     OK! :D     |
 |  12  |ft_print_memory        | ex12/	                                                              |ft_print_memory.c	    	|     Nothing turned in :(     |
+
+#### Succeded with 55%
