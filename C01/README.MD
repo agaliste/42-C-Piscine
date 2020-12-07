@@ -13,3 +13,5 @@
 |  06  |ft_strlen							|	[ex06/](https://github.com/somedevv/42-C-Piscine/tree/master/C01/ex06)		|ft_strlen.c		| OK! :D |
 |  07  |ft_rev_int_tab									|	[ex07/](https://github.com/somedevv/42-C-Piscine/tree/master/C01/ex07)		|ft_rev_int_tab.c				| OK! :D |
 |  08  |ft_sort_int_tab							|	[ex08/](https://github.com/somedevv/42-C-Piscine/tree/master/C01/ex08)		|ft_sort_int_tab.c		| OK! :D |
+
+#### Succeded with 100%
