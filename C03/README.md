@@ -11,4 +11,4 @@
 |  04  |ft_strstr| [ex04/](https://github.com/somedevv/42-C-Piscine/tree/master/C03/ex04)|ft_strstr.c|     OK! :D     |
 |  05  |ft_strlcat        | [ex05/](https://github.com/somedevv/42-C-Piscine/tree/master/C03/ex05)|ft_strlcat.c	    	|     OK! :D     |
 
-#### Total mark: 10/100
+#### Failed with 10%
