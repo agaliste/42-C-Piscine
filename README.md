@@ -1,6 +1,6 @@
 ## 42 C-Piscine projects
 
-Started at: **23/11/2020 at 9:30:00** --> Ends at: **18/12/2020**
+Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 
 #### Individual Projects
 
