@@ -21,6 +21,6 @@ Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 |  00  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	|
 |  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c |
 
-These are all the projects made by me in the C-Pisicine of [42Madrid Fundación Telefonica](https://www.42madrid.com/).
+These are all the projects made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
 
 More projects to come.
