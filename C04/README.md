@@ -9,4 +9,4 @@
 |  02  |ft_putnbr        |[ex02/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex02)|ft_putnbr.c	      |     ??     |
 |  03  |ft_atoi      |[ex03/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex03)|ft_atoi.c	    |     ??     |
 |  04  |ft_putnbr_base| [ex04/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex04)|ft_putnbr_base.c|     ??     |
-|  05  |ft_atoi_base        | ex05/|ft_atoi_base.c	    	|     ??     |
+|  05  |ft_atoi_base        | [ex05/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex05)|ft_atoi_base.c	    	|     ??     |
