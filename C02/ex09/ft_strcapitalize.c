@@ -6,33 +6,33 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/04 12:06:19 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/08 09:16:21 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcapitalize(char *str)
 {
-	char *start;
+	int		cont;
+	char	st;
 
-	start = str;
+	cont = 0;
 	while (*str != '\0')
 	{
-		if (*str >= 'a' && *str <= 'z')
+		st = *(str - 1);
+		if ((st >= 58 && st <= 64) || cont == 0 || (st >= 123 && st <= 126))
 		{
-			if ((start == str) || *(str - 1) == 32 || *(str - 1) == 45)
-				*str -= 32;
-			if (*(str - 1) == 43)
-				*str -= 32;
+			if (*str >= 97 && *str <= 122)
+				*str = *str - 32;
 		}
-		else if (*str >= 'A' && *str <= 'Z')
+		else if ((st >= 32 && st <= 47) || (st >= 91 && st <= 96))
 		{
-			if (!(*(str - 1) == 32) && !(*(str - 1) == 45) &&
-				!(*(str - 1) == 43))
-				*str += 32;
-			if (*(str - 2) == 44)
-				*str += 32;
+			if (*str >= 97 && *str <= 122)
+				*str = *str - 32;
 		}
+		else if (*str >= 65 && *str <= 90)
+			*str = *str + 32;
 		str++;
+		cont++;
 	}
-	return (start);
+	return (str);
 }
