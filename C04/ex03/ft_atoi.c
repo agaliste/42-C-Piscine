@@ -6,11 +6,9 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/07 07:58:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/07 14:56:58 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/08 09:02:13 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_atoi(char *str)
 {

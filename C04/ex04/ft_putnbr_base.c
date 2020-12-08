@@ -6,110 +6,68 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/07 15:08:00 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/07 17:08:41 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/08 08:43:14 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int			ft_strcmp(char *s1, char *s2)
+#include <unistd.h>
+
+void	ft_putchar(char c)
 {
-	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
-	{
-		s1++;
-		s2++;
-	}
-	if (*s1 == *s2)
-	{
+	write(1, &c, 1);
+}
+
+int		check_base(char *base)
+{
+	int	i;
+	int	z;
+
+	i = 0;
+	z = 0;
+	if (base[0] == '\0' || base[1] == '\0')
 		return (0);
-	}
-	else
+	while (base[i])
 	{
-		return (*s1 - *s2);
-	}
-}
-
-void		ft_putnbr(int nb)
-{
-	int pi;
-
-	pi = nb + '0';
-	if (nb > -2147483648 || nb <= 2147483647)
-	{
-		if (nb == -2147483648)
+		z = i + 1;
+		if (base[i] == '+' || base[i] == '-')
+			return (0);
+		if (base[i] < 32 || base[i] > 126)
+			return (0);
+		while (base[z])
 		{
-			write(1, '-', 1);
-			write(1, '2', 1);
-			ft_putnbr(147483648);
+			if (base[i] == base[z])
+				return (0);
+			z++;
 		}
-		else if (nb >= 10)
-		{
-			ft_putnbr(nb / 10);
-			ft_putnbr(nb % 10);
-		}
-		else if (nb < 0)
-		{
-			nb = -nb;
-			write(1, '-', 1);
-			ft_putnbr(nb);
-		}
-		else
-			write(1, &pi, 1);
-	}
-}
-
-long int	x_to_the_n(int x, int ex)
-{
-	int i;
-	int number;
-
-	i = 0;
-	number = 1;
-	while (i < ex)
-	{
-		number *= x;
 		i++;
 	}
-	return (number);
+	return (1);
 }
 
-int			ft_convertert(int base, int n)
+void	ft_putnbr_base(int nbr, char *base)
 {
-	int num;
-	int quotient;
-	int remainder;
-	int i;
+	int	size_base;
+	int	nbr_final[100];
+	int	i;
 
-	num = 0;
-	quotient = n;
-	remainder = 0;
 	i = 0;
-	while (quotient != 0)
+	size_base = 0;
+	if (check_base(base))
 	{
-		remainder = quotient % base;
-		quotient = quotient / base;
-
-		num = (remainder * x_to_the_n(10, i)) + num;
-		i++;
-	}
-}
-
-void		ft_putnbr_base(int nbr, char *base)
-{
-	char test[] = "0123456789";
-
-	if (ft_strcmp(*base, *test) == 0)
-	{
-		ft_putnbr(nbr);
-	}
-	if (*base == "01")
-	{
-		ft_convertert(2, nbr);
-	}
-	if (*base == "0123456789ABCDEF")
-	{
-		ft_convertert(16, nbr);
-	}
-	if (*base == "poniguay")
-	{
-		ft_convertert(8, nbr);
+		if (nbr < 0)
+		{
+			nbr = -nbr;
+			ft_putchar('-');
+		}
+		while (base[size_base])
+			size_base++;
+		while (nbr)
+		{
+			nbr_final[i] = nbr % size_base;
+			nbr = nbr / size_base;
+			i++;
+		}
+		while (--i >= 0)
+			ft_putchar(base[nbr_final[i]]);
 	}
 }

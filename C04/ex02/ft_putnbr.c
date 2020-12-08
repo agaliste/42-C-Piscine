@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/06 12:41:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/07 07:57:09 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/08 09:02:27 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,4 @@ void	ft_putnbr(int nb)
 			ft_putchar(nb + '0');
 		}
 	}
-}
-
-int		main(void)
-{
-	ft_putnbr(42);
-	return (0);
 }

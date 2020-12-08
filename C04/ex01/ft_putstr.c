@@ -6,9 +6,11 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/06 10:34:15 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/06 10:37:42 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/08 09:03:48 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
