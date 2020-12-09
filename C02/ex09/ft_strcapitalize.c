@@ -6,7 +6,7 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/08 09:16:21 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/09 08:42:03 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,9 @@ char	*ft_strcapitalize(char *str)
 {
 	int		cont;
 	char	st;
+	char	*oki;
 
+	oki = str;
 	cont = 0;
 	while (*str != '\0')
 	{
@@ -34,5 +36,5 @@ char	*ft_strcapitalize(char *str)
 		str++;
 		cont++;
 	}
-	return (str);
+	return (oki);
 }
