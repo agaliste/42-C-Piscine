@@ -14,7 +14,7 @@ Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 |  05  |C03					|	[C03/](https://github.com/somedevv/42-C-Piscine/tree/master/C03)		| ex00 --> ex05 |
 |  06  |C04					|	[C04/](https://github.com/somedevv/42-C-Piscine/tree/master/C04)		| ex00 --> ex05 |
 
-#### Group Projects
+#### Rushes
 
 |  ##  |			Name				|	Directory	|	Files			|
 |:----:|:-----------------------------------|:-------------:|:------------------|
