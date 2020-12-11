@@ -6,9 +6,11 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/29 17:42:11 by agaliste          #+#    #+#             */
-/*   Updated: 2020/11/29 19:05:43 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/11 11:30:16 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_ft(int *nbr)
 {

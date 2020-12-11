@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/04 09:33:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/09 15:42:54 by agaliste         ###   ########.fr       */
+/*   Created: 2020/12/11 09:48:23 by agaliste          #+#    #+#             */
+/*   Updated: 2020/12/11 09:58:21 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-char	*ft_strcat(char *dest, char *src)
+int	ft_iterative_factorial(int nb)
 {
-	char *charptr;
-	char *charptrsrc;
+	int i;
+	int fact;
 
-	charptr = dest;
-	charptrsrc = src;
-	while (*charptr)
-		charptr++;
-	while (*charptrsrc)
+	i = 1;
+	fact = 1;
+	while (i <= nb)
 	{
-		*charptr = *charptrsrc;
-		charptrsrc++;
-		charptr++;
+		fact = fact * i;
+		i++;
 	}
-	*charptr = 0;
-	return (dest);
+	return (fact);
 }

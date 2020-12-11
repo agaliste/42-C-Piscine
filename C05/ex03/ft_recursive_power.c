@@ -1,32 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_recursive_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/04 09:33:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/09 15:42:54 by agaliste         ###   ########.fr       */
+/*   Created: 2020/12/11 11:13:35 by agaliste          #+#    #+#             */
+/*   Updated: 2020/12/11 11:35:44 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <unistd.h>
 
-char	*ft_strcat(char *dest, char *src)
+int	ft_recursive_power(int nb, int power)
 {
-	char *charptr;
-	char *charptrsrc;
-
-	charptr = dest;
-	charptrsrc = src;
-	while (*charptr)
-		charptr++;
-	while (*charptrsrc)
+	if (power != 0)
 	{
-		*charptr = *charptrsrc;
-		charptrsrc++;
-		charptr++;
+		return (nb * ft_recursive_power(nb, power - 1));
 	}
-	*charptr = 0;
-	return (dest);
+	else
+		return (1);
 }

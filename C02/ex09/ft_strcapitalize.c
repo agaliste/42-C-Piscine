@@ -6,35 +6,35 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 09:29:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/09 08:42:03 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/09 15:53:51 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcapitalize(char *str)
 {
-	int		cont;
-	char	st;
-	char	*oki;
+	int n;
 
-	oki = str;
-	cont = 0;
-	while (*str != '\0')
+	n = 1;
+	if (str[0] >= 97 && str[n] <= 122)
 	{
-		st = *(str - 1);
-		if ((st >= 58 && st <= 64) || cont == 0 || (st >= 123 && st <= 126))
-		{
-			if (*str >= 97 && *str <= 122)
-				*str = *str - 32;
-		}
-		else if ((st >= 32 && st <= 47) || (st >= 91 && st <= 96))
-		{
-			if (*str >= 97 && *str <= 122)
-				*str = *str - 32;
-		}
-		else if (*str >= 65 && *str <= 90)
-			*str = *str + 32;
-		str++;
-		cont++;
+		str[0] = str[0] - 32;
 	}
-	return (oki);
+	while (str[n] != '\0')
+	{
+		if (str[n] >= 65 && str[n] <= 90)
+		{
+			str[n] = str[n] + 32;
+		}
+		if (((str[n - 1] < 65 || str[n - 1] > 90) &&
+		(str[n - 1] < 97 || str[n - 1] > 122)) &&
+		(str[n - 1] < 48 || str[n - 1] > 57))
+		{
+			if (str[n] >= 97 && str[n] <= 122)
+			{
+				str[n] = str[n] - 32;
+			}
+		}
+		n++;
+	}
+	return (str);
 }

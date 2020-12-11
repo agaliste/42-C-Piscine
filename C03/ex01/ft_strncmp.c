@@ -3,29 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/04 09:31:14 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/04 11:13:21 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/09 15:42:51 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	unsigned	int	i;
-
-	i = 0;
-	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2 && i < n)
+	while (n > 0)
 	{
+		if (*s1 != *s2)
+			return (*s1 - *s2);
+		if (*s1 == '\0')
+			return (0);
 		s1++;
 		s2++;
+		n--;
 	}
-	if (*s1 == *s2)
-	{
-		return (0);
-	}
-	else
-	{
-		return (*s1 - *s2);
-	}
+	return (0);
 }

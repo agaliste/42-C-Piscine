@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/04 09:33:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/09 15:42:54 by agaliste         ###   ########.fr       */
+/*   Created: 2020/12/11 09:59:43 by agaliste          #+#    #+#             */
+/*   Updated: 2020/12/11 11:14:26 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-char	*ft_strcat(char *dest, char *src)
+int	ft_iterative_power(int nb, int power)
 {
-	char *charptr;
-	char *charptrsrc;
+	int sol;
 
-	charptr = dest;
-	charptrsrc = src;
-	while (*charptr)
-		charptr++;
-	while (*charptrsrc)
+	sol = 1;
+	while (power > 0)
 	{
-		*charptr = *charptrsrc;
-		charptrsrc++;
-		charptr++;
+		if (power == 1)
+			sol = sol * nb;
+		power = power / 2;
+		nb = nb * nb;
 	}
-	*charptr = 0;
-	return (dest);
+	return (sol);
 }
