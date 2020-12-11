@@ -1,4 +1,4 @@
-## Exercise 03 : ft_ft
+## Exercise 03 : ft_recursive_power
 
 |               Exercise 03             |
 |---------------------------------------|
