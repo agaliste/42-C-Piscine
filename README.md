@@ -21,7 +21,7 @@ Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 |  ##  |			Name				|	Directory	|	Files			| Group | Mark |
 |:----:|:-----------------------------------|:-------------:|:------------------:|:-------------:|:----------|
 |  00  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	| agaliste(me), rsan-mig, jarribas | 0 (Negatives not well managed) |
-|  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c | agaliste(me), emollejo, rorozco | 70 (Outstanding Project) |
+|  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c | agaliste(me), emollejo, rorozco | 70 + Outstanding Project |
 |  02  |Rush02					|	Rush02/		| ?? | agaliste(me), pgomez-a, dlago-mo | ?? |
 
 These are all the projects made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
