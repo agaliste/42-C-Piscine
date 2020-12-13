@@ -30,4 +30,4 @@ More projects to come.
 # Disclaimer
 **Do not use anything in this repositry for your C-Piscine or 42Network project**
 
-**YOU RISK GETTING A -42!!**
+**ONLY USE THIS AS A REFERENCE, YOU RISK GETTING A -42!!**
