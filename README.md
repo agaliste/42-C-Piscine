@@ -4,7 +4,7 @@ Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 
 ### Individual Projects
 
-|  ##  |			Name				|	Directory	|	Files			|
+|  ##  |			Name				|	Directory	|	Exercises			|
 |:----:|:-----------------------------------|:-------------:|:------------------|
 |  00  |Shell00								|	[Shell00/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00)		| ex00 --> ex08			|
 |  01  |Shell01							|	[Shell01/](https://github.com/somedevv/42-Piscine/tree/master/Shell01)		| ex01 --> ex08 |
