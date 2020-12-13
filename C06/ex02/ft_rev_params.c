@@ -1,26 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
+/*   ft_rev_params.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
+/*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/11 09:48:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/12 10:06:32 by agaliste         ###   ########.fr       */
+/*   Created: 2020/12/12 12:30:16 by agaliste          #+#    #+#             */
+/*   Updated: 2020/12/12 15:22:21 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_iterative_factorial(int nb)
+#include <unistd.h>
+
+int	ft_strlen(char *c)
 {
 	int i;
-	int fact;
 
-	i = 1;
-	fact = 1;
-	while (i <= nb)
+	i = 0;
+	while (*c != '\0')
 	{
-		fact = fact * i;
 		i++;
+		c++;
 	}
-	return (fact);
+	return (i);
+}
+
+int main(int argc, char **argv)
+{
+	int n;
+	int i;
+
+	i = argc - 1;;
+	while (i > 0)
+	{
+		write(1, argv[i], ft_strlen(argv[i]));
+		write(1, "\n", 1);
+		i--;
+	}
+	return (0);
 }
