@@ -6,35 +6,34 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/07 07:58:22 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/09 10:01:50 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/13 16:33:22 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(char *str)
 {
-	int res;
-	int neg;
-	int n;
+	int i;
+	int is_neg;
+	int nb;
 
-	res = 0;
-	neg = 0;
-	n = 0;
-	while (*str != '\0')
+	nb = 0;
+	i = 0;
+	is_neg = 1;
+	while (str[i] == '\f' || str[i] == '\n' || str[i] == '\r' ||
+	str[i] == '\t' || str[i] == '\v' || str[i] == ' ')
+		i++;
+	while (str[i] == '+' || str[i] == '-')
 	{
-		if (*str < 48 || *str > 57)
+		if (str[i] == '-')
 		{
-			if (n > 0 && (*(str - 1) >= 48 && *(str - 1) <= 57))
-				break ;
-			if (*str == '-')
-				neg++;
+			is_neg *= -1;
 		}
-		n++;
-		if (*str >= 48 && *str <= 57)
-			res = res * 10 + *str - '0';
-		str++;
+		i++;
 	}
-	if (neg % 2 == 0)
-		return (res);
-	else
-		return (res * -1);
+	while (str[i] <= '9' && str[i] >= '0')
+	{
+		nb = (nb * 10) + (str[i] - '0');
+		i++;
+	}
+	return (nb * is_neg);
 }
