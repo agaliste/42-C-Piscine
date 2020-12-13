@@ -26,3 +26,8 @@ Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 These are all the projects made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
 
 More projects to come.
+
+# Disclaimer
+**Do not use anything in this repositry for your C-Piscine or 42Network project**
+
+**YOU RISK GETTING A -42!!**
