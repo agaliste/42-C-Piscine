@@ -11,4 +11,4 @@
 |  04  |ft_putnbr_base| [ex04/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex04)|ft_putnbr_base.c|     KO! :(     |
 |  05  |ft_atoi_base        | [ex05/](https://github.com/somedevv/42-C-Piscine/tree/master/C04/ex05)|ft_atoi_base.c	    	|     Does not compile! :(     |
 
-#### Last mark bedore correction: Succeded with 50%
+#### Succeded with 50% (Before correction)
