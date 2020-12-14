@@ -6,7 +6,7 @@
 /*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/12 12:30:16 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/14 13:07:07 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/14 13:42:13 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ int	ft_strlen(char *c)
 
 int	main(int argc, char **argv)
 {
-	int n;
 	int i;
 
 	i = argc - 1;
