@@ -6,7 +6,7 @@
 /*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/12 11:54:56 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/12 11:56:15 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/14 13:08:19 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int	ft_strlen(char *c)
 
 int	main(int argc, char **argv)
 {
+	(void)argc;
 	write(1, argv[0], ft_strlen(argv[0]));
 	return (0);
 }
