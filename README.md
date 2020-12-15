@@ -7,7 +7,7 @@ These are all the projects made by me in the C-Pisicine of [42Madrid Fundación 
 ## Disclaimer
 **Do not use anything in this repositry for your C-Piscine or 42Network project**
 
-**ONLY USE THIS AS A REFERENCE, YOU RISK GETTING A -42!!**
+**ONLY USE THIS AS A REFERENCE, IF YOU COPY YOU RISK GETTING A -42!!**
 
 ##  Tables of contents
 
