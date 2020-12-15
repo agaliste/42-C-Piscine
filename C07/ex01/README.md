@@ -9,14 +9,14 @@
 
  ### Objective: 
 
-• Write a function ft_range that returns an array of int. This array of int
-it will contain all the values between min and max.
+• Write a function <code>ft_range</code> that returns an array of int. This array of int
+it will contain all the values between <code>min</code> and <code>max</code>.
 
-• **Min** included - **max** excluded.
+• <code>Min</code> included - <code>max</code> excluded.
 
 • The prototype of the function should be the following:
 ```C
 int *ft_range(int min, int max);
 ```
 
-• If the **min** value is greater than or equal to the **max** value, a null pointer will be returned
+• If the <code>min</code> value is greater than or equal to the <code>max</code> value, a null pointer will be returned
