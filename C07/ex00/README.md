@@ -9,7 +9,7 @@
 
  ### Objective: 
 
-• Identically reproduce the operation of the strdup function (man strdup).
+• Identically reproduce the operation of the <code>strdup</code> function (man strdup).
 
 • The prototype of the function should be the following:
 ```C
