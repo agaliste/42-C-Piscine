@@ -1,34 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_program_name.c                            :+:      :+:    :+:   */
+/*   ft_ultimate_range.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/12 11:54:56 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/15 10:43:13 by agaliste         ###   ########.fr       */
+/*   Created: 2020/12/15 09:20:05 by agaliste          #+#    #+#             */
+/*   Updated: 2020/12/15 09:32:36 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdlib.h>
 
-int	ft_strlen(char *c)
+int	*ft_ultimate_range(int **range, int min, int max)
 {
 	int i;
+	int *tab;
+	int lenght;
 
+	length = max - min + 1;
 	i = 0;
-	while (*c != '\0')
+	tab = malloc(sizeof(*tab) * lenght);
+	if (min >= max)
 	{
-		i++;
-		c++;
+		ret = NULL;
+		return (0);
 	}
+	if (!(*tab))
+		return (-1);
+	while (min < max)
+	{
+		tab[i] = min;
+		i++;
+		min++;
+	}
+	*range = tab;
 	return (i);
-}
-
-int	main(int argc, char **argv)
-{
-	(void)argc;
-	write(1, argv[0], ft_strlen(argv[0]));
-	write(1, "\n", 1);
-	return (0);
 }

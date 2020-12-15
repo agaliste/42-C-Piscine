@@ -6,7 +6,7 @@
 /*   By: agaliste <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/13 14:46:49 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/14 13:07:42 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/15 10:54:34 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,59 +17,56 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_putstr(char *str)
-{
-	int i;
-
-	i = 0;
-	while (str[i] != '\0')
-		ft_putchar(str[i++]);
-}
-
 int		ft_strcmp(char *s1, char *s2)
 {
 	int i;
 
 	i = 0;
-	while (s1[i] != '\0' && s2[i] != '\0')
-	{
-		if (s1[i] == s2[i])
-			i++;
-		if (s1[i] < s2[i] || s1[i] > s2[i])
-			return (s1[i] - s2[i]);
-	}
-	return (0);
+	while ((s1[i] == s2[i]) && (s1[i] != '\0') && (s2[i] != '\0'))
+		i++;
+	return (s1[i] - s2[i]);
 }
 
-void	ft_print(char **arg, int i)
+void	ft_print_params(char **av)
 {
-	ft_putstr(arg[i]);
-	ft_putchar('\n');
-}
-
-int		main(int argc, char **argv)
-{
-	int		i;
-	char	*tmp;
+	int i;
+	int j;
 
 	i = 1;
-	while (i < argc - 1)
+	while (av[i])
 	{
-		if (ft_strcmp(argv[i], argv[i + 1]) > 0)
+		j = 0;
+		while (av[i][j])
 		{
-			tmp = argv[i];
-			argv[i] = argv[i + 1];
-			argv[i + 1] = tmp;
-			i = 1;
+			ft_putchar(av[i][j]);
+			j++;
 		}
-		else
-			i++;
-	}
-	i = 1;
-	while (i < argc)
-	{
-		ft_print(argv, i);
+		ft_putchar('\n');
 		i++;
 	}
-	return (0);
+}
+
+int		main(int ac, char **av)
+{
+	int		i;
+	int		j;
+	char	*temp;
+
+	i = 1;
+	while (i < ac)
+	{
+		j = 1;
+		while (j < ac)
+		{
+			if (ft_strcmp(av[i], av[j]) < 0)
+			{
+				temp = av[i];
+				av[i] = av[j];
+				av[j] = temp;
+			}
+			j++;
+		}
+		i++;
+	}
+	ft_print_params(av);
 }
