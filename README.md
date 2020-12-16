@@ -1,8 +1,8 @@
-# 42 C-Piscine projects
+# 42 C-Piscine
 
 Started at: **23/11/2020 at 9:30** --> Ends at: **18/12/2020 at 23:42**
 
-These are all the projects made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
+These are all the inidividual projects, rushes and examns (only the grade) made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
 
 ## Disclaimer
 **Project PDFs are in Spanish**
