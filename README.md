@@ -9,9 +9,7 @@ These are all the projects made by me in the C-Pisicine of [42Madrid Fundación 
 
 **ONLY USE THIS AS A REFERENCE, IF YOU COPY YOU RISK GETTING A -42!!**
 
-##  Tables of contents
-
-### Individual Projects
+## Individual Projects
 
 |  ##  |			Name				|	Directory	|	Exercises			|
 |:----:|:-----------------------------------|:-------------:|:------------------|
@@ -26,10 +24,19 @@ These are all the projects made by me in the C-Pisicine of [42Madrid Fundación 
 |  08  |C06					|	[C06/](https://github.com/somedevv/42-C-Piscine/tree/master/C06)		| ex00 --> ex03 |
 |  09  |C07					|	[C07/](https://github.com/somedevv/42-C-Piscine/tree/master/C07)		| ex00 --> ex05 |
 
-### Rushes
+## Rushes
 
 |  ##  |			Name				|	Directory	|	Files			| Group | Mark |
 |:----:|:-----------------------------------|:-------------:|:------------------:|:-------------:|:----------|
-|  00  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	| agaliste(me), rsan-mig, jarribas | 0 (Negatives not well managed) |
-|  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c | agaliste(me), emollejo, rorozco | 70 + Outstanding Project |
-|  02  |Rush02					|	Rush02/		| better to not show it | agaliste(me), pgomez-a, dlago-mo | ?? |
+|  00  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	| agaliste(me), rsan-mig, jarribas | Failed with 0% (Negatives not well managed) |
+|  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c | agaliste(me), emollejo, rorozco | Succeded with 70% + Outstanding Project |
+|  02  |Rush02					|	Rush02/		| better to skip this one | agaliste(me), pgomez-a, dlago-mo | ?? |
+
+## Exams
+
+|  ##  |  Name  |	       Grade	      |
+|:----:|:-------|:-------------------:|
+|  00  | Exam00	|		Succeded with 32%	|
+|  01  | Exam01	|		Succeded with 32%	|
+|  02  | Exam02	|		Failed with 0%	  |
+|  03  | Final Exam |		??	          |
