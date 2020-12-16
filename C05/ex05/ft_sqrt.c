@@ -6,25 +6,20 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/11 12:23:23 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/14 08:50:34 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/16 12:11:16 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_sqrt(int nb)
 {
 	int i;
-	int sq;
 
 	i = 1;
-	sq = 1;
-	if (nb == 0)
-		return (0);
-	while (i * i < nb)
+	while (i <= 46340)
 	{
+		if (i * i == nb)
+			return (i);
 		i++;
 	}
-	if ((nb % i) == 0)
-		return (i);
-	else
-		return (0);
+	return (0);
 }
