@@ -11,18 +11,18 @@ These are all the inidividual projects, rushes and exams (only the grade) made b
 
 ## Individual Projects
 
-|  ##  |			Name				|	Directory	|	Exercises			|
-|:----:|:-----------------------------------|:-------------:|:------------------|
-|  00  |Shell00								|	[Shell00/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00)		| ex00 --> ex08			|
-|  01  |Shell01							|	[Shell01/](https://github.com/somedevv/42-Piscine/tree/master/Shell01)		| ex01 --> ex08 |
-|  02  |C00								|	[C00/](https://github.com/somedevv/42-C-Piscine/tree/master/C00)		| ex00 --> ex08			|
-|  03  |C01					|	[C01/](https://github.com/somedevv/42-C-Piscine/tree/master/C01)		| ex00 --> ex08 |
-|  04  |C02					|	[C02/](https://github.com/somedevv/42-C-Piscine/tree/master/C02)		| ex00 --> ex12 |
-|  05  |C03					|	[C03/](https://github.com/somedevv/42-C-Piscine/tree/master/C03)		| ex00 --> ex05 |
-|  06  |C04					|	[C04/](https://github.com/somedevv/42-C-Piscine/tree/master/C04)		| ex00 --> ex05 |
-|  07  |C05					|	[C05/](https://github.com/somedevv/42-C-Piscine/tree/master/C05)		| ex00 --> ex08 |
-|  08  |C06					|	[C06/](https://github.com/somedevv/42-C-Piscine/tree/master/C06)		| ex00 --> ex03 |
-|  09  |C07					|	[C07/](https://github.com/somedevv/42-C-Piscine/tree/master/C07)		| ex00 --> ex05 |
+|  ##  |			Name				|	Directory	|	Exercises			| Mark |
+|:----:|:-----------------------------------|:-------------:|:------------------:|:--------------:|
+|  00  |Shell00								|	[Shell00/](https://github.com/somedevv/42-C-Piscine/tree/master/Shell00)		| ex00 --> ex08			| Succeded with 100% |
+|  01  |Shell01							|	[Shell01/](https://github.com/somedevv/42-Piscine/tree/master/Shell01)		| ex01 --> ex08 | Succeded with 100% |
+|  02  |C00								|	[C00/](https://github.com/somedevv/42-C-Piscine/tree/master/C00)		| ex00 --> ex08			| Succeded with 92% |
+|  03  |C01					|	[C01/](https://github.com/somedevv/42-C-Piscine/tree/master/C01)		| ex00 --> ex08 | Succeded with 100% |
+|  04  |C02					|	[C02/](https://github.com/somedevv/42-C-Piscine/tree/master/C02)		| ex00 --> ex12 | Succeded with 85% |
+|  05  |C03					|	[C03/](https://github.com/somedevv/42-C-Piscine/tree/master/C03)		| ex00 --> ex05 | Succeded with 95% |
+|  06  |C04					|	[C04/](https://github.com/somedevv/42-C-Piscine/tree/master/C04)		| ex00 --> ex05 | Succeded with 50% |
+|  07  |C05					|	[C05/](https://github.com/somedevv/42-C-Piscine/tree/master/C05)		| ex00 --> ex08 | Failed with 0% |
+|  08  |C06					|	[C06/](https://github.com/somedevv/42-C-Piscine/tree/master/C06)		| ex00 --> ex03 | Succeded with 100% |
+|  09  |C07					|	[C07/](https://github.com/somedevv/42-C-Piscine/tree/master/C07)		| ex00 --> ex05 | ?? |
 
 ## Rushes
 
