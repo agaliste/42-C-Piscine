@@ -6,52 +6,33 @@
 /*   By: agaliste <agaliste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/11 13:02:04 by agaliste          #+#    #+#             */
-/*   Updated: 2020/12/14 08:55:12 by agaliste         ###   ########.fr       */
+/*   Updated: 2020/12/16 14:54:16 by agaliste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_recursive_power(int nb, int power)
-{
-	if (power < 0)
-		return (0);
-	if (power == 0)
-		return (1);
-	return (nb * ft_recursive_power(nb, power - 1));
-}
-
-int	ft_is_prime(int nb)
+int	ft_is_prime(int n)
 {
 	int i;
 
-	i = 3;
-	if (nb <= 1)
+	i = 2;
+	if (n <= 1)
 		return (0);
-	if (nb == 2 || nb == 3)
-		return (1);
-	if (nb % 2 == 0 || nb % 3 == 0)
-		return (0);
-	while ((i * i) <= nb)
+	while (i <= n / i)
 	{
-		if ((nb % i) == 0)
+		if (n % i == 0)
 			return (0);
-		i += 2;
+		i++;
 	}
 	return (1);
 }
 
 int	ft_find_next_prime(int nb)
 {
-	if (ft_is_prime(nb))
+	int is_prime;
+
+	is_prime = ft_is_prime(nb);
+	if (is_prime == 1)
 		return (nb);
-	if (nb <= 2)
-		return (2);
-	if ((nb % 2) == 0)
-		nb++;
-	while (nb < (ft_recursive_power(2, 31) - 1))
-	{
-		if (ft_is_prime(nb))
-			return (nb);
-		nb += 2;
-	}
-	return (-1);
+	else
+		return (ft_find_next_prime(nb + 1));
 }
