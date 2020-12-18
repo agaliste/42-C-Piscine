@@ -30,7 +30,7 @@ These are all the inidividual projects, rushes and exams (only the grade) made b
 |:----:|:-----------------------------------|:-------------:|:------------------:|:-------------:|:----------|
 |  00  |Rush00					|	[Rush00/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush00)		| main.c., ft_rush03, ft_putchar.c	| agaliste(me), rsan-mig, jarribas | Failed with 0% (Negatives not well managed) |
 |  01  |Rush01					|	[Rush01/](https://github.com/somedevv/42-C-Piscine/tree/master/Rush01)		| main.c, first_check.c, functions.h, helper_functions.c, matrices.c, second_check.c, solve.c | agaliste(me), emollejo, rorozco | Succeded with 70% + Outstanding Project |
-|  02  |Rush02					|	Rush02/		| better to skip this one | agaliste(me), pgomez-a, dlago-mo | ?? |
+|  02  |Rush02					|	Rush02/		| better to skip this one | agaliste(me), pgomez-a, dlago-mo | Failed with 0% |
 |  03  |BSQ					|	BSQ/		| Didn't do it :( | agaliste(me), alogarci | 0 |
 
 ## Exams
