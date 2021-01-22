@@ -1,6 +1,6 @@
 Started at: **23/11/2020 at 9:30** --> Ended at: **18/12/2020 at 23:42**
 
-These are all the inidividual projects, rushes and exams (only the grade) made by me in the C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
+These are all my inidividual projects, rushes and exams (only the grade) in my C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
 
 ## Disclaimer
 **Project PDFs are in Spanish**
