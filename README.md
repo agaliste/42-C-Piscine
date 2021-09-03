@@ -1,4 +1,4 @@
-[![jaeskim's 42 stats](https://badge42.herokuapp.com/api/stats/agaliste?cursus=C%20Piscine&privacyName=true)](https://github.com/JaeSeoKim/badge42)
+[![agaliste's 42 stats](https://badge42.herokuapp.com/api/stats/agaliste?cursus=C%20Piscine&privacyName=true)]()
 
 These are all my inidividual projects, rushes and exams (only the grade) in my C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
 
