@@ -1,6 +1,6 @@
 [![agaliste's 42 stats](https://badge42.vercel.app/api/v2/cl4912ys5011709jxmyk6gwno/stats?cursusId=9&coalitionId=piscine)](https://github.com/JaeSeoKim/badge42)
 
-These are all my inidividual projects, rushes and exams in my C-Pisicine of [42Madrid Fundación Telefónica](https://www.42madrid.com/).
+These are all my inidividual projects, rushes and exams in my C-Pisicine of [42 Madrid Fundación Telefónica](https://www.42madrid.com/).
 
 ## Disclaimer
 
